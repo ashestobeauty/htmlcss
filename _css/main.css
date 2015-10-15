@@ -1,1 +1,100 @@
 /* css */
+
+body{
+    margin:0px;
+    padding:0px;
+    background-color:black;
+}
+   
+#page {
+    padding:40px;
+} 
+#header {
+    background-color:gray; /* this made the heading gray */
+    padding:0px;
+    color:white;
+} 
+
+#header h1{
+    padding:20px 40px;
+    margin:0px;
+    font-family:Verdana;
+    font-size:60pt;
+}
+/* navigation */
+#nav, #nav a {
+    background-color:#ccc;    /* this changes the background color to #ccc */
+    padding:10px;
+}
+#nav a {
+    margin:0px;
+    color:black;           
+    font-family:arial;
+    text-decoration:none;   /* This removed the underline */
+}
+
+#nav a:hover {
+    background-color:#aaaaff; /* This made the background color */
+    color:white;
+    transition:background-color 2s; /* This made the navigations change light purple when you hover over it for 2 seconds */
+}
+/* end navigation */
+#content {
+    padding:20px 40px;
+    background-color:#eee;
+    margin:0px;
+}
+
+ #content h2, #content h3 {
+     font-family:Arial;
+ }
+
+#footer {
+    background-color:black;
+    color:white;
+    margin:0px;
+    padding:20px;
+}
+
+#footer a {
+    text-decoration:none;
+    color:white;
+}
+.spotlight {
+    background-color:pink;
+    padding:20px;
+    border-radius:20px;
+}
+
+#footer {
+    background-color:black;
+    padding: 20px 40px;
+    color:white;
+}
+
+#page{
+    padding:20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*#header{
+    background-color:gray;
+    width:400px;
+    padding:20px;
+}
+
+#header:hover{
+    background-color:pink;
+    transition: background-color 2s;
+}
+*/
